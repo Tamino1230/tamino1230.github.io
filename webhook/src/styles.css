@@ -229,3 +229,125 @@ body {
 .section-title {
     color: var(--header-font-color);
 }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .header-text, .header-description, .header-made-by {
+        padding: 15px 0;
+        font-size: 0.85em;
+    }
+
+    .navigation {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 8px;
+    }
+
+    .navi-btn {
+        padding: 10px 20px;
+        font-size: 0.9em;
+    }
+
+    .explanation-sections-wrapper {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .explanation-section {
+        margin: 0 15px;
+        flex: 1 1 100%;
+    }
+
+    .explanation-section img {
+        width: 100%;
+        height: auto;
+        margin-top: 10px;
+    }
+
+    .section-title {
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    .section-text {
+        font-size: 1em;
+        line-height: 1.5;
+        color: #e4e4e4; /* Improve text contrast */
+    }
+
+    .pastel-input {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .box {
+        margin-bottom: 40px;
+    }
+
+    .footer-down-right {
+        justify-content: center;
+        font-size: 1em;
+        padding-right: 0;
+        text-align: center;
+    }
+
+    .links {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .headline {
+        font-size: 2em;
+        text-align: center;
+    }
+
+    .description {
+        font-size: 1.2em;
+        text-align: center;
+    }
+
+    .navi-btn {
+        padding: 8px 15px;
+        font-size: 0.8em;
+    }
+
+    .explanation-section img {
+        width: 100%;
+        height: auto;
+        margin-top: 10px;
+    }
+
+    .section-title {
+        font-size: 1.3em;
+        text-align: center;
+    }
+
+    .section-text {
+        font-size: 0.9em;
+        line-height: 1.4;
+        color: #f4f4f4; /* Ensure readability */
+    }
+
+    .website-content-container {
+        padding: 0 10px;
+    }
+
+    .box {
+        margin-bottom: 30px;
+    }
+
+    .footer-down-right {
+        font-size: 0.9em;
+    }
+
+    .website-content-container {
+        padding: 0 10px;
+    }
+
+    .box {
+        margin-bottom: 30px;
+    }
+}
