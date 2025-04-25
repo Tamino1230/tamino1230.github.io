@@ -27,6 +27,7 @@ function addToTaskbar(appName) {
         pronomes: 'src/icons/documents.png',
         links: 'src/icons/documents.png',
         comment: 'src/icons//tamino1230-icon.jpg',
+        error: 'src/icons/error.png'
     };
 
     if (customIcons[appName]) {
@@ -132,6 +133,7 @@ const appContent = {
     pronomes: '<h1>Pronomes</h1><p>My Personal Pronouns are <strong>He/Him</strong>.</p><p>I am Hetero but i have nothing against that what People Identify as!</p><p>I like more being with People than being alone.</p><p>Except if I don\'t like you (But i ussually do not dislike you for no reason).</p><p>I Speak German and Egnlish. I can speak both languages pretty well and fluetly so I dont mind speaking English at all.<p>',
     links: '<h1>Links</h1><p>Here are some useful links and resources from me.</p><p><ul><li>Twitter: <a href="https://twitter.com/nuketamino" target="_blank">@nuketamino</a></li><li>GitHub: <a href="https://github.com/Tamino1230" target="_blank">@tamino1230</a></li><li>Discord: Tamino1230</li><li>Reddit: <a href="https://reddit.com/u/Tamino1230" target="_blank">/u/tamino1230</a></li><li>Steam: <a href="https://steamcommunity.com/id/Tamino1230" target="_blank">/id/Tamino1230</a></li><li>Twitch: <a href="https://twitch.tv/tamino001" target="_blank">Tamino001</a></li><li>Riot: DevilFish#hers</li></ul></p>',
     comment: '<h1>Comment on my Profile</h1><p>Feel free to leave a comment or feedback about my profile or any of my projects.</p><p>Your thoughts and suggestions are always welcome!</p><p>Link: <a href="http://users4.smartgb.com/g/g.php?a=s&i=g44-82925-8d" target="_blank">Link to Guestbook</a>',
+    error: '<p>{</p><p>    "content": "not avaible anymore",</p><p>    "error": "trojan-89232.svg - null error",</p><p>}</p>'
 };
 
 
@@ -232,6 +234,7 @@ startMenu.innerHTML = `
     <div class="menu-item" data-app="pronomes">pronomes</div>
     <div class="menu-item" data-app="links">links</div>
     <div class="menu-item" data-app="comment">COMMENT HERE</div>
+    <div class="menu-item" data-app="error">Errorx</div>
 `;
 desktop.appendChild(startMenu);
 
