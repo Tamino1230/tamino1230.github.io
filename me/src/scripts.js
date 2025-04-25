@@ -19,7 +19,7 @@ function addToTaskbar(appName) {
     const customIcons = {
         about: 'src/icons/tamino1230-icon.jpg',
         bunker_crawler: 'src/icons/bunker-crawler-logo.ico',
-        github: 'src/icons/github-icon.icon',
+        github: 'src/icons/github-icon.ico',
         mylove: 'src/icons/mylove-logo.ico',
         secret_documents: 'src/icons/docu.png',
         discord: 'src/icons/discord-icon.jpeg',
