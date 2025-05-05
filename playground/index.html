@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mini HTML/CSS Playground</title>
+    <link rel="stylesheet" href="src/styles.css">
+    </head>
+    <body>
+    <div style="margin-top: 30px;">
+        <h2>HTML</h2>
+<textarea id="htmlInput" placeholder="Input HTML...">
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <h1>Hello World!</h1>
+        <p>hiiiii</p>
+    </body>
+</html>
+</textarea>
+    </div>
+    <div style="margin-top: 30px;">
+        <h2>CSS</h2>
+<textarea id="cssInput" placeholder="Input CSS...">
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightblue;
+    color: darkblue;
+    text-align: center;
+}
+</textarea>
+    </div>
+
+    <iframe id="preview"></iframe>
+
+    <div class="download-btn">
+        <a class="download-text" id="downloadBtn" href="#">Download the Project</a>
+    </div>
+    <div class="top-btns">
+        <button id="saveBtn">Save</button>
+        <button id="clearBtn">Clear</button>
+    </div>
+
+    <div class="phone-view">
+        <div class="phone-view-content">
+            <h3>Screensize is too small :/</h3>
+        </div>
+    </div>
+
+    <script src="src/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+    </body>
+</html>
+
+
