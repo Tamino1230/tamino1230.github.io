@@ -21,7 +21,6 @@ textarea {
   overflow: auto;
   white-space: pre;
   resize: none;
-  max-width: 600px;
   max-height: 400px;
 }
 
